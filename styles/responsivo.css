@@ -1,0 +1,28 @@
+@media screen and (max-width: 768px) {
+    header img {
+        display: none;
+    }
+
+    #member__name {
+        font-size: 80px;
+    }
+
+    main {
+        align-self: flex-start;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 20px;
+    }
+
+    #navigation {
+        right: -100%;
+        width: 100%;
+        padding: 50px 25px 0;
+    }
+    
+    #navigation div button img {
+        display: flex;
+        max-width: 160px;
+    }
+}
