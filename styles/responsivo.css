@@ -24,7 +24,7 @@
 
     #member__name {
         text-align: center;
-        font-size: 65px;
+        font-size: 60px;
     }
 
     main {
@@ -33,6 +33,14 @@
         flex-direction: column;
         align-items: center;
         row-gap: 20px;
+        width: 100vw;
+    }
+
+    main div {
+        display: flex;
+        align-items: center;
+        column-gap: 12px;
+        margin-bottom: 20px;
     }
 
     #navigation {
